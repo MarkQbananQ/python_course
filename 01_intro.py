@@ -41,3 +41,39 @@ print('Python\n3.10')
 # %%
 print("""Python
 3.10""")
+# %%
+print('\tPython')
+print('\t\t\tPython')
+# %%
+print('C:\path\\to\something\\new')
+print(r'C:\path\to\something\new')
+# %%
+import os
+os.getcwd()
+# %%
+print("""
+Instukcja uruchamiania pliku przyklad.py:
+
+    --file [nazwa pliku]
+        zapisuje output do pliku
+    
+    --quiet
+        wycisza logi z konsoli
+
+Koniec.""")
+# %%
+text = 'I love Python! '
+print(text * 3)
+print('hau...' * 8)
+print('*' * 30)
+# %%
+name = 'Python'
+print(name, '3.10')
+# %%
+age = 16
+imie = 'Marek'
+
+print(imie, 'ma', age, 'lat')
+print('{} ma {} lat'.format(imie, age))
+print('{0} ma {1} lat'.format(imie, age))
+# %%
