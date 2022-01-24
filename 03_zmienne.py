@@ -1,0 +1,25 @@
+# %%
+imie = 'Marek'
+_imie = 'Olek'
+
+imie_3 = 'Ala'
+# %%
+a = 8
+b = 20
+
+c = a * b
+print(c)
+# %%
+przepracowane_godziny = 8
+stawka_godzinowa = 20
+
+dzienna_pensja = przepracowane_godziny * stawka_godzinowa
+print(dzienna_pensja)
+# %%
+camelCase = 'Python 3.10'
+PascalCase = 'Python 3.10'
+snake_case = 'Python 3.10'
+UPPER = 'Python 3.10'
+# %%
+import keyword
+keyword.kwlist

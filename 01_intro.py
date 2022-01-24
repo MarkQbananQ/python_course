@@ -77,3 +77,5 @@ print(imie, 'ma', age, 'lat')
 print('{} ma {} lat'.format(imie, age))
 print('{0} ma {1} lat'.format(imie, age))
 # %%
+saldo = 40
+print(saldo)
